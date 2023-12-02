@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: whitesmoke;
+}
+
+header {
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;   
+    background: whitesmoke;
+    position: fixed;
+}
+
+.myname {
+    margin-left: 80px;
+    color: green;
+    font-size: 17px;
+}
+
+.navbars{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-right: 80px;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.nav3 a {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.nav5 button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ri-phone-fill {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.page-begins {
+    display: flex;
+}
+
+.begins {
+    margin-top: 130px;
+    text-align: center;
+    background: white;
+    height: 350px;
+    margin-left: 80px;
+    margin-right: 80PX;
+    margin-bottom: 100px;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.green-div {
+    background: green;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-left: 520px;
+}
+
+.ri-sparkling-2-fill {
+    color: white;
+    font-size: 40px;
+}
+
+.intro {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.cont {
+    padding: 5px;
+    padding-top: 20px;
+    border: 1px solid lightslategray;
+    margin: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ri-checkbox-circle-fill, .ri-group-fill, .ri-bar-chart-fill {
+    padding-right: 5px;
+    color: green;
+    font-size: 20px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+.ri-arrow-left-s-line, .ri-arrow-right-s-line {
+    font-size: 25px;
+    background: white;
+    cursor: pointer;
+}
+
+.horizontal {
+    margin-left: 80px;
+    margin-right: 80px;
+    border-top: 1px solid;
+    font-weight: 100;
+    color: lightslategray;
+}
+
+.and-another-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 25px;
+}
+
+.first, .second, .third {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 380px;
+}
+
+.top2 {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.first img, .second img, .third img {
+    text-align: center;
+    width: 325px;
+    height: 345;
+    border-radius: 10px;
+}
+
+.line2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-bottom: 15px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.line3 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-bottom: 15px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.page-ends {
+    padding-top: 100px;
+}
+
+.horizontal2 {
+   border-top: 1px solid;
+   font-weight: 100;
+   color: lightslategray;
+   padding-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.myname2 {
+    color: green;
+}
+.bottom2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-bottom: 20px;
+}
+
+.con1, .con2, .con3 {
+    padding: 20px;
+    align-items: center;
+}
+
+.con2, .con3 {
+    border-left: 1px solid lightslategray;
+    height: 12px;
+    margin-top: 10px;
+}
+
+.ri-mail-line, .ri-phone-fill, .ri-map-pin-2-fill {
+    padding-right: 5px;
+    font-size: 20px;
+    color: green;
+}
+
+.end {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 300;
+}

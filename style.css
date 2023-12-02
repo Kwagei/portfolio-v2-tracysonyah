@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: whitesmoke;
+}
+
+header {
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;   
+    background: whitesmoke;
+    position: fixed;
+}
+
+.myname {
+    margin-left: 80px;
+    color: green;
+    font-size: 17px;
+}
+
+.navbars{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-right: 80px;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.nav1 a {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.nav5 button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ri-phone-fill {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.page-begins {
+    display: flex;
+}
+
+.begins1 {
+    margin-left: 80px;
+    margin-top: 150px;
+}
+
+.emoji-greet {
+    display: flex;
+}
+
+.welcome {
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.emoji-greet button{
+    padding: 5px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+}
+
+.inform {
+    padding-top: 35px;
+}
+
+.butt-nav {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+}
+
+.button button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.view {
+    padding-left: 25px;
+    display: flex;
+    padding-top: 17px;
+    cursor: pointer;
+}
+
+.view:hover {
+    color: green;
+}
+
+.ratings {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    margin-top: 50px;
+    height: 115px;
+    border-radius: 8px;
+}
+
+.number {
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    margin-left: 35px;
+}
+
+.plus {
+    color: green;
+}
+
+.rate {
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-right: 65px;
+}
+
+.begins2 img {
+    border-bottom-left-radius: 20px;
+    height: 700px;
+    width: 530px;
+    background: black;
+}
+
+.head1, .head2 {
+    text-align: center;
+}
+
+.head1 {
+    padding-top: 85px;
+    font-weight: 500;
+    font-size: 35px;
+    margin-right: 80px;
+}
+
+.head2 {
+    padding-top: 10px;
+    margin-right: 80px;
+    font-weight: 300;
+}
+
+.icon-div {
+    background: green;
+    height: 52px;
+    width: 55px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+}
+
+.ri-smartphone-line {
+    color: white;
+    font-size: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.first-div, .second-div, .third-div, .fourth-div, .fifth-div, .sixth-div {
+    background: white;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+
+.top {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.bottom {
+    font-weight: 300;
+}
+
+.fifth-div p {
+    font: 100;
+}
+
+
+.other-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+    gap: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.another-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+    gap: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.grid1, .grid2, .grid3 {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.top2 {
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.and-another-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 25px;
+}
+
+.first, .second, .third {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 380px;
+}
+
+.first img, .second img, .third img {
+    text-align: center;
+    width: 325px;
+    height: 345;
+    border-radius: 10px;
+}
+
+.button {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button {
+    background: green;
+    margin-top: 20px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-top: 60px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+.ri-arrow-left-s-line, .ri-arrow-right-s-line {
+    font-size: 25px;
+    background: white;
+    cursor: pointer;
+}
+
+.horizontal {
+    margin-left: 80px;
+    margin-right: 80px;
+    border-top: 1px solid;
+    font-weight: 100;
+    color: lightslategray;
+}
+
+.and-another {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 60px;
+    margin-left: 80px;
+    padding-top: 80px;
+    gap: 25px;
+}
+
+.stars {
+    color: green;
+    font-size: 20px;
+    /* padding-bottom: 20px; */
+}
+
+.one {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.accordium-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 60px;
+}
+
+.accordium, .left {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.accordium {
+    width: 800px;
+}
+
+.accord-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accord-intro button {
+    padding: 3px;
+    width: 25px;
+}
+
+.accordium1, .accordium2, .accordium3, .accordium4, .accordium5 {
+    background: whitesmoke;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.intro {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.left-intro {
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+
+.left {
+    height: 340px;
+}
+
+.left-star {
+    background: green;
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.ri-star-s-fill {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.left button {
+    margin-top: 18px;
+    border: none;
+    background: green;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.para {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 9px;
+}
+
+.page-ends {
+    padding-top: 100px;
+}
+
+.horizontal2 {
+   border-top: 1px solid;
+   font-weight: 100;
+   color: lightslategray;
+   padding-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.myname2 {
+    color: green;
+}
+.bottom2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-bottom: 20px;
+}
+
+.con1, .con2, .con3 {
+    padding: 20px;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    background: green;
+    border-radius: 5px;
+}
+
+.ri-linkedin-box-fill, .ri-twitter-fill, .ri-global-line {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: white;
+}
+
+.ri-linkedin-box-fill {
+    padding-left: 20px;
+}
+
+.ri-twitter-fill, .ri-global-line {
+    padding-left: 20px;
+}
+
+.con2, .con3 {
+    border-left: 1px solid lightslategray;
+    height: 12px;
+    margin-top: 10px;
+}
+
+.ri-mail-line, .ri-phone-fill, .ri-map-pin-2-fill {
+    padding-right: 5px;
+    font-size: 20px;
+    color: green;
+}
+
+.ri-mail-line {
+    padding-right: 5px;
+    font-size: 20px;
+    color: green;
+}
+
+.end {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+@media
