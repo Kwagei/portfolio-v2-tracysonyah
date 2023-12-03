@@ -349,26 +349,10 @@ a:hover {
     border-radius: 10px;
 }
 
-.accordium {
-    width: 800px;
-}
-
 .accord-intro {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.accord-intro button {
-    padding: 3px;
-    width: 25px;
-}
-
-.accordium1, .accordium2, .accordium3, .accordium4, .accordium5 {
-    background: whitesmoke;
-    margin-bottom: 25px;
-    padding: 20px;
-    border-radius: 5px;
 }
 
 .intro {
@@ -499,5 +483,3 @@ a:hover {
     font-size: 10px;
     font-weight: 300;
 }
-
-@media
