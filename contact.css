@@ -240,9 +240,10 @@ fieldset p {
 }
 
 .accord-intro {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
 }
 
 .accord-intro button {
@@ -252,8 +253,8 @@ fieldset p {
 
 .accordium1, .accordium2, .accordium3, .accordium4, .accordium5 {
     background: whitesmoke;
-    margin-bottom: 25px;
-    padding: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
     border-radius: 5px;
 }
 
